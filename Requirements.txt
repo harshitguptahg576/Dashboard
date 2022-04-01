@@ -1,0 +1,6 @@
+
+Firstly run "json-server --port 3004 --watch db.json" in the integrated terminal of src/Api folder.
+
+and run the server by npm start in the "Server" folder
+
+and finally run yarn start in the "Dashboard" folder
