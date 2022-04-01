@@ -1,0 +1,62 @@
+.account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
+    width: 90%;
+    margin: auto;
+}
+.profile{
+    text-align: center;
+}
+.profile section{
+    position: relative;
+}
+.profile label{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    right: 0;
+}
+.profile label i{
+    font-size: 20px;
+    border: 1px solid darkorange;
+    padding: 10px;
+    border-radius: 50%;
+    float: right;
+}
+.profile img{
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* Profile Details */
+.fa-check{
+    display: none;
+}
+
+input:disabled{
+    background-color: transparent;
+    color: darkorange;
+    text-decoration: underline;
+}
+.profile-detail ul li{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+}
+.profile-detail ul li i{
+    padding: 10px;
+}
+
+@media screen and (min-width:600px) {
+    .account{
+        flex-direction: row-reverse;
+    }
+    .profile,.profile-detail{
+    width: 50%;
+}
+
+}

@@ -1,0 +1,99 @@
+{
+    "Users": [
+      {
+        "id": 1,
+        "Name": "Harshit Gupta",
+        "Email": "harshit.gupta@mail.vinove.com",
+        "Password": "123"
+      },
+      {
+        "Name": "Harshit",
+        "Email": "h@coder.com",
+        "Password": "hghg",
+        "id": 2
+      }
+    ],
+    "EMP": [
+      {
+          "id" : 1,
+          "Emp_Code" : "V5952",
+          "Name" : "Rahul Kumar Singh" ,
+          "Profile" : "MERN",
+          "Email" : "rahul.kumar@mail.vinove.com",
+          "Company" : "ValueCoder"
+  
+      },
+      {
+          "id" : 2,
+          "Emp_Code" : "V5953",
+          "Name" : "Harshit Gupta" ,
+          "Profile" : "MERN",
+          "Email" : "harshit.gupta@mail.vinove.com",
+          "Company" : "ValueCoder"
+      }, 
+      {
+          "id" : 3,
+          "Emp_Code" : "V5954",
+          "Name" : "Satyan Sinha" ,
+          "Profile" : "MERN",
+          "Email" : "satyan,sinha@mail.vinove.com",
+          "Company" : "ValueCoder"
+      },
+      {
+          "id" : 4,
+          "Emp_Code" : "V5955",
+          "Name" : "Shaad Ahmad" ,
+          "Profile" : "MERN",
+          "Email" : "shaad.ahmad@mail.vinove.com",
+          "Company" : "ValueCoder"
+      },
+      {
+          "id" : 5,
+          "Emp_Code" : "V5956",
+          "Name" : "Affan Israiely" ,
+          "Profile" : "MERN",
+          "Email" : "affan.israiely@mail.vinove.com",
+          "Company" : "ValueCoder"
+      },
+      {
+          "id" : 6,
+          "Emp_Code" : "V5957",
+          "Name" : "Nitin nagwan" ,
+          "Profile" : "MERN",
+          "Email" : "nitin.nagwan@mail.vinove.com",
+          "Company" : "ValueCoder"
+      },
+      {
+          "id" : 7,
+          "Emp_Code" : "V5958",
+          "Name" : "Ashish Agrawal" ,
+          "Profile" : "MERN",
+          "Email" : "ashish.agrawal@mail.vinove.com",
+          "Company" : "ValueCoder"
+      },
+      {
+          "id" : 8,
+          "Emp_Code" : "V5959",
+          "Name" : "Adwait Verma" ,
+          "Profile" : "MERN",
+          "Email" : "adwait.verma@mail.vinove.com",
+          "Company" : "ValueCoder"
+      },
+      {
+          "id" : 9,
+          "Emp_Code" : "V5960",
+          "Name" : "Parth Chauhan" ,
+          "Profile" : "MERN",
+          "Email" : "parth.chauhan@mail.vinove.com",
+          "Company" : "ValueCoder"
+      },
+      {
+          "id" : 10,
+          "Emp_Code" : "V5961",
+          "Name" : "Amit priyaranjan panda" ,
+          "Profile" : "MERN",
+          "Email" : "amit.panda@mail.vinove.com",
+          "Company" : "ValueCoder"
+      }
+  ]
+  }
