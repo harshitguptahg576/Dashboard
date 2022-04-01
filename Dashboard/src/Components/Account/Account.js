@@ -59,7 +59,16 @@ const Account = () => {
     <div className="account">
       <div className="profile">
         <section>
-          <label htmlFor="fileToUpload">
+         
+          <img
+            src={pic?"http://localhost:8000/dp/"+pic:"https://i.ibb.co/yNGW4gg/avatar.png"}
+            id="blah"
+            alt="Avatar"
+            ref={dp}
+            width={"250px"}
+            height={"250px"}
+          />
+           <label htmlFor="fileToUpload">
             <i className="fa fa-camera"></i>
             <input
               type="file"
@@ -71,14 +80,6 @@ const Account = () => {
               // "document.getElementById('blah').src = window.URL.createObjectURL(this.files[0])"
             />
           </label>
-          <img
-            src={pic?"http://localhost:8000/dp/"+pic:"https://i.ibb.co/yNGW4gg/avatar.png"}
-            id="blah"
-            alt="Avatar"
-            ref={dp}
-            width={"250px"}
-            height={"250px"}
-          />
         </section>
         <h1>{name}</h1>
         <h3>Mern Developer</h3>

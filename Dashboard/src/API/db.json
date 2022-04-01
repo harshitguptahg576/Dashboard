@@ -70,14 +70,6 @@
   ],
   "EMP": [
     {
-      "id": 1,
-      "Emp_Code": "V5952",
-      "Name": "Rahul Kumar Singh",
-      "Profile": "MERN",
-      "Email": "rahul.kumar@mail.vinove.com",
-      "Company": "ValueCoder"
-    },
-    {
       "id": 2,
       "Emp_Code": "V5953",
       "Name": "Harshit Gupta",

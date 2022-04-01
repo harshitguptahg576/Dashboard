@@ -12,12 +12,19 @@
 }
 .profile section{
     position: relative;
+    width: fit-content;
+    margin: auto;
+    height: 300px;
 }
 .profile label{
     position: absolute;
     height: 50px;
     width: 50px;
-    right: 0;
+    right: 100px;
+    bottom: -10px;
+}
+.profile label:hover{
+    transform: scale(1.1);
 }
 .profile label i{
     font-size: 20px;
